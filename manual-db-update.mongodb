@@ -1,0 +1,92 @@
+// Manual MongoDB commands to fix the issues
+// Run these in MongoDB Compass or mongo shell
+
+use rewear
+
+// 1. Fix admin user - ensure isActive is true
+db.users.updateOne(
+  {email: "admin@rewear.com"},
+  {$set: {isActive: true}}
+)
+
+// 2. Create a regular user for items
+db.users.insertOne({
+  email: "seller@example.com",
+  password: "$2a$12$MXE8jBhD7Q3xg9nSmphmNO/B8LTndX7f/1Zgm.13HDrSu7TDiklBS",
+  name: "Fashion Seller",
+  role: "user",
+  isActive: true,
+  createdAt: new Date(),
+  updatedAt: new Date()
+})
+
+// 3. Get user IDs
+var admin = db.users.findOne({role: "admin"})
+var user = db.users.findOne({role: "user"})
+
+// 4. Move any admin-owned items to regular user
+db.items.updateMany(
+  {userId: admin._id},
+  {$set: {userId: user._id}}
+)
+
+// 5. Add some pending items for admin to review
+db.items.insertMany([
+  {
+    title: "Vintage Leather Jacket - NEEDS APPROVAL",
+    description: "Authentic vintage leather jacket in excellent condition.",
+    category: "outerwear",
+    condition: "good",
+    size: "L",
+    brand: "Vintage",
+    sellingPrice: 85.00,
+    images: ["/placeholder-image.svg"],
+    userId: user._id,
+    status: "pending",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    isActive: true
+  },
+  {
+    title: "Designer Handbag - AWAITING REVIEW",
+    description: "Beautiful designer handbag, barely used.",
+    category: "accessories",
+    condition: "like-new",
+    size: "One Size",
+    brand: "Designer",
+    sellingPrice: 120.00,
+    images: ["/placeholder-image.svg"],
+    userId: user._id,
+    status: "pending",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    isActive: true
+  },
+  {
+    title: "Summer Dress - PENDING APPROVAL",
+    description: "Light summer dress, perfect for warm weather.",
+    category: "dresses",
+    condition: "good",
+    size: "M",
+    brand: "H&M",
+    sellingPrice: 25.00,
+    images: ["/placeholder-image.svg"],
+    userId: user._id,
+    status: "pending",
+    createdAt: new Date(),
+    updatedAt: new Date(),
+    isActive: true
+  }
+])
+
+// 6. Check results
+print("=== USERS ===")
+db.users.find({}, {password: 0}).pretty()
+
+print("=== ITEMS BY STATUS ===")
+db.items.aggregate([
+  {$group: {_id: "$status", count: {$sum: 1}}}
+])
+
+print("=== PENDING ITEMS ===")
+db.items.find({status: "pending"}, {title: 1, status: 1}).pretty()

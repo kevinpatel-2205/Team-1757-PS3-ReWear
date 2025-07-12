@@ -23,10 +23,10 @@ A sustainable product listing platform designed to promote reuse and responsible
 [MongoDB Server (Local DB)]          ←→     [Image URLs]
 ```
 
-- Frontend: Cross-platform responsive app.
-- Backend: REST APIs for handling data and user logic.
-- Database: MongoDB used for storing users, products, metadata.
-- Image Storage: Hosts uploaded item images with URL reference.
+- *Frontend*: Cross-platform responsive app.
+- *Backend*: REST APIs for handling data and user logic.
+- *Database*: MongoDB used for storing users, products, metadata.
+- *Image Storage*: Hosts uploaded item images with URL reference.
 
 
 ##  API Status Codes

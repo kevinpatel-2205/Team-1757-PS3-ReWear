@@ -1,0 +1,21 @@
+// MongoDB script to fix admin user
+// Run this in MongoDB Compass or mongo shell
+
+use rewear
+
+// Check current admin user
+db.users.findOne({email: "admin@rewear.com"})
+
+// Update admin user to add isActive field
+db.users.updateOne(
+  {email: "admin@rewear.com"},
+  {
+    $set: {
+      isActive: true,
+      updatedAt: new Date()
+    }
+  }
+)
+
+// Verify the update
+db.users.findOne({email: "admin@rewear.com"})
