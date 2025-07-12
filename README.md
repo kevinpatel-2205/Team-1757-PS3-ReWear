@@ -11,9 +11,7 @@ A sustainable product listing platform designed to promote reuse and responsible
 | Bhavi SheetalKumar Patel | Team Leader / Database Admin (Schema Developer) |https://github.com/bhavipate/Team-1757-PS3-ReWear
 | Nimesh Prajapati         | API Developer + QA and Testing                  |https://github.com/Nimesh30/Team-1757-PS3-ReWear
 | Amit Prajapati           | Backend Developer                               |https://github.com/amitprajapati0702/Team-1757-PS3-ReWear
-| Kevin Patel              | UI/UX Developer                                 |
-
-https://github.com/kevinpatel-2205/Team-1757-PS3-ReWear
+| Kevin Patel              | UI/UX Developer                                 |https://github.com/kevinpatel-2205/Team-1757-PS3-ReWear
 ##  System Architecture
 
                 [ ReWear App (Frontend) ]
