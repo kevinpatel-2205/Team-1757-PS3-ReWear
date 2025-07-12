@@ -1,0 +1,1168 @@
+[{
+  "_id": {
+    "$oid": "6871e4b4b96ab434986ca7f4"
+  },
+  "title": "Vintage Denim Jacket",
+  "description": "Classic blue denim jacket in excellent condition. Perfect for layering.",
+  "category": "outerwear",
+  "condition": "good",
+  "size": "M",
+  "brand": "Levi's",
+  "originalPrice": 89.99,
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-12T04:29:40.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.639Z"
+  },
+  "isActive": true,
+  "tags": [
+    "vintage",
+    "denim",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6871e4b4b96ab434986ca7f5"
+  },
+  "title": "Floral Summer Dress",
+  "description": "Beautiful floral print dress, perfect for summer occasions.",
+  "category": "dresses",
+  "condition": "like-new",
+  "size": "S",
+  "brand": "Zara",
+  "originalPrice": 59.99,
+  "sellingPrice": 30,
+  "images": [
+    "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T04:29:40.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.642Z"
+  },
+  "isActive": true,
+  "tags": [
+    "floral",
+    "summer",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6871e4b4b96ab434986ca7f6"
+  },
+  "title": "Black Leather Boots",
+  "description": "Stylish black leather ankle boots with minimal wear.",
+  "category": "shoes",
+  "condition": "good",
+  "size": "8",
+  "brand": "Dr. Martens",
+  "originalPrice": 150,
+  "sellingPrice": 75,
+  "images": [
+    "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-12T04:29:40.792Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.645Z"
+  },
+  "isActive": true,
+  "tags": [
+    "leather",
+    "boots",
+    "black"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6871f493755f7e846d418262"
+  },
+  "title": "test1",
+  "description": "these is just demo",
+  "category": "bottoms",
+  "condition": "good",
+  "size": "M",
+  "brand": "mango",
+  "originalPrice": 249.99,
+  "sellingPrice": 350,
+  "images": [
+    "https://images.unsplash.com/photo-1506629905607-d405b7a30db9?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871eaa9cf1abd048b8d2051"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T05:37:23.986Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.648Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872043807089b343a162fce"
+  },
+  "title": "Vintage Denim Jacket - PENDING REVIEW",
+  "description": "Beautiful vintage denim jacket in excellent condition. Perfect for casual wear.",
+  "category": "outerwear",
+  "condition": "good",
+  "size": "M",
+  "brand": "Levi's",
+  "originalPrice": 89.99,
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1544441893-675973e31985?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1559563458-527698bf5295?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T06:44:08.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.649Z"
+  },
+  "isActive": true,
+  "tags": [
+    "vintage",
+    "denim",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872043807089b343a162fcf"
+  },
+  "title": "Summer Floral Dress - NEEDS APPROVAL",
+  "description": "Light and airy summer dress with beautiful floral pattern. Worn only twice.",
+  "category": "dresses",
+  "condition": "like-new",
+  "size": "S",
+  "brand": "Zara",
+  "originalPrice": 59.99,
+  "sellingPrice": 30,
+  "images": [
+    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T06:14:08.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.651Z"
+  },
+  "isActive": true,
+  "tags": [
+    "floral",
+    "summer",
+    "dress"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872043807089b343a162fd0"
+  },
+  "title": "Designer Handbag - AWAITING REVIEW",
+  "description": "Authentic designer handbag in mint condition. Comes with original dust bag.",
+  "category": "accessories",
+  "condition": "new",
+  "size": "One Size",
+  "brand": "Coach",
+  "originalPrice": 299.99,
+  "sellingPrice": 150,
+  "images": [
+    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T05:44:08.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.653Z"
+  },
+  "isActive": true,
+  "tags": [
+    "designer",
+    "handbag",
+    "luxury"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872043807089b343a162fd1"
+  },
+  "title": "Running Shoes - Already Approved",
+  "description": "Comfortable running shoes, barely used. Great for daily workouts.",
+  "category": "shoes",
+  "condition": "good",
+  "size": "9",
+  "brand": "Nike",
+  "originalPrice": 120,
+  "sellingPrice": 60,
+  "images": [
+    "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-11T06:44:08.254Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.655Z"
+  },
+  "isActive": true,
+  "tags": [
+    "running",
+    "shoes",
+    "nike"
+  ]
+},
+{
+  "_id": {
+    "$oid": "687209d77e53980418d39437"
+  },
+  "title": "Vintage Leather Jacket - NEEDS APPROVAL",
+  "description": "Authentic vintage leather jacket in excellent condition.",
+  "category": "outerwear",
+  "condition": "good",
+  "size": "L",
+  "brand": "Vintage",
+  "sellingPrice": 85,
+  "images": [
+    "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:08:07.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.656Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "687209d77e53980418d39438"
+  },
+  "title": "Designer Handbag - AWAITING REVIEW",
+  "description": "Beautiful designer handbag, barely used.",
+  "category": "accessories",
+  "condition": "like-new",
+  "size": "One Size",
+  "brand": "Designer",
+  "sellingPrice": 120,
+  "images": [
+    "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:08:07.550Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.659Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "68720b8e164980fb0e87b699"
+  },
+  "title": "Printed Tshirt",
+  "description": "T-shirt with printed patterns",
+  "category": "tops",
+  "condition": "like-new",
+  "size": "M",
+  "brand": "mango",
+  "originalPrice": 1000,
+  "sellingPrice": 700,
+  "images": [
+    "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=600&fit=crop&crop=center"
+  ],
+  "tags": [
+    "tshirt",
+    "tops"
+  ],
+  "userId": {
+    "$oid": "6871fc50164980fb0e87b698"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:15:26.406Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.663Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872100236e80623d6d82d70"
+  },
+  "title": "Test Item 1 - Pending Review",
+  "description": "This is a test item that needs admin approval.",
+  "category": "tops",
+  "condition": "good",
+  "size": "M",
+  "brand": "Test Brand",
+  "sellingPrice": 25,
+  "images": [
+    "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872100236e80623d6d82d6f"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:34:26.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.666Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872100236e80623d6d82d71"
+  },
+  "title": "Test Item 2 - Also Pending",
+  "description": "Another test item waiting for approval.",
+  "category": "bottoms",
+  "condition": "like-new",
+  "size": "L",
+  "brand": "Another Brand",
+  "sellingPrice": 35,
+  "images": [
+    "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872100236e80623d6d82d6f"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:04:26.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.669Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872100236e80623d6d82d72"
+  },
+  "title": "Test Item 3 - Approved",
+  "description": "This item has been approved by admin.",
+  "category": "dresses",
+  "condition": "good",
+  "size": "S",
+  "brand": "Approved Brand",
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1566479179817-c0b8b8b5b8b8?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872100236e80623d6d82d6f"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-12T06:34:26.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.673Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "687211aa4ce2ba299ca018ec"
+  },
+  "title": "Tshirt",
+  "description": "Tshirt Desc",
+  "category": "tops",
+  "condition": "good",
+  "size": "M",
+  "brand": "mango",
+  "originalPrice": 1000,
+  "sellingPrice": 700,
+  "images": [
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=600&h=600&fit=crop&crop=center"
+  ],
+  "tags": [
+    "tops",
+    "tshirt"
+  ],
+  "userId": {
+    "$oid": "6871fc50164980fb0e87b698"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:41:30.624Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.675Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "687215eef8ef996858ee0fae"
+  },
+  "title": "TEST ITEM - Please Approve",
+  "description": "This is a test item created directly in the database to test the admin panel.",
+  "category": "tops",
+  "condition": "good",
+  "size": "M",
+  "brand": "Test Brand",
+  "originalPrice": 50,
+  "sellingPrice": 25,
+  "images": [
+    "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1622445275576-721325763afe?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:59:42.623Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.677Z"
+  },
+  "isActive": true,
+  "tags": [
+    "test",
+    "admin",
+    "pending"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68721d909e39fcba9be17e73"
+  },
+  "title": "Vintage Denim Jacket - NEEDS APPROVAL",
+  "description": "Beautiful vintage denim jacket in excellent condition. Perfect for casual wear.",
+  "category": "outerwear",
+  "condition": "good",
+  "size": "M",
+  "brand": "Levi's",
+  "originalPrice": 89.99,
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1559563458-527698bf5295?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T08:32:16.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.679Z"
+  },
+  "isActive": true,
+  "tags": [
+    "vintage",
+    "denim",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68721d909e39fcba9be17e74"
+  },
+  "title": "Summer Floral Dress - AWAITING REVIEW",
+  "description": "Light and airy summer dress with beautiful floral pattern. Worn only twice.",
+  "category": "dresses",
+  "condition": "like-new",
+  "size": "S",
+  "brand": "Zara",
+  "originalPrice": 59.99,
+  "sellingPrice": 30,
+  "images": [
+    "https://images.unsplash.com/photo-1566479179817-c0b8b8b5b8b8?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T08:02:16.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.680Z"
+  },
+  "isActive": true,
+  "tags": [
+    "floral",
+    "summer",
+    "dress"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68721d909e39fcba9be17e75"
+  },
+  "title": "Designer Handbag - PENDING APPROVAL",
+  "description": "Authentic designer handbag in mint condition. Comes with original dust bag.",
+  "category": "accessories",
+  "condition": "new",
+  "size": "One Size",
+  "brand": "Coach",
+  "originalPrice": 299.99,
+  "sellingPrice": 150,
+  "images": [
+    "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T07:32:16.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.682Z"
+  },
+  "isActive": true,
+  "tags": [
+    "designer",
+    "handbag",
+    "luxury"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68721d909e39fcba9be17e76"
+  },
+  "title": "Casual T-Shirt - NEEDS REVIEW",
+  "description": "Comfortable cotton t-shirt, barely worn. Great for everyday use.",
+  "category": "tops",
+  "condition": "good",
+  "size": "L",
+  "brand": "H&M",
+  "originalPrice": 19.99,
+  "sellingPrice": 10,
+  "images": [
+    "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T08:17:16.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.684Z"
+  },
+  "isActive": true,
+  "tags": [
+    "casual",
+    "cotton",
+    "everyday"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68721d909e39fcba9be17e77"
+  },
+  "title": "Running Shoes - ALREADY APPROVED",
+  "description": "Comfortable running shoes, barely used. Great for daily workouts.",
+  "category": "shoes",
+  "condition": "good",
+  "size": "9",
+  "brand": "Nike",
+  "originalPrice": 120,
+  "sellingPrice": 60,
+  "images": [
+    "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-11T08:32:16.472Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.685Z"
+  },
+  "isActive": true,
+  "tags": [
+    "running",
+    "shoes",
+    "nike"
+  ]
+},
+{
+  "_id": {
+    "$oid": "68722636779834eff9f2f1f6"
+  },
+  "title": "Testing Demo",
+  "description": "I am testing an image/item upload",
+  "category": "tops",
+  "condition": "like-new",
+  "size": "M",
+  "brand": "mango",
+  "originalPrice": 1000,
+  "sellingPrice": 700,
+  "images": [
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=600&fit=crop&crop=center"
+  ],
+  "tags": [
+    "Tshirt",
+    "Tops"
+  ],
+  "userId": {
+    "$oid": "6871fc50164980fb0e87b698"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T09:09:10.055Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.686Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "687227a4779834eff9f2f1f7"
+  },
+  "title": "Testing Image Upload",
+  "description": "I am testing Image and Item Upload",
+  "category": "tops",
+  "condition": "like-new",
+  "size": "M",
+  "brand": "Generic",
+  "originalPrice": 1000,
+  "sellingPrice": 700,
+  "images": [
+    "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=600&fit=crop&crop=center"
+  ],
+  "tags": [
+    "Tops",
+    "STshirt"
+  ],
+  "userId": {
+    "$oid": "6871fc50164980fb0e87b698"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T09:15:16.698Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.688Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d413"
+  },
+  "title": "Vintage Band T-Shirt - The Beatles",
+  "description": "Authentic vintage Beatles t-shirt from the 80s. Soft cotton material with classic logo print. Perfect for music lovers and vintage collectors.",
+  "category": "tops",
+  "condition": "good",
+  "size": "M",
+  "brand": "Vintage",
+  "originalPrice": 45,
+  "sellingPrice": 28,
+  "images": [
+    "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-07T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.690Z"
+  },
+  "isActive": true,
+  "tags": [
+    "vintage",
+    "band",
+    "music",
+    "retro"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d414"
+  },
+  "title": "Elegant Silk Blouse - Office Ready",
+  "description": "Beautiful silk blouse in cream color. Perfect for professional settings or elegant occasions. Barely worn, excellent condition.",
+  "category": "tops",
+  "condition": "like-new",
+  "size": "S",
+  "brand": "Zara",
+  "originalPrice": 89.99,
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d411"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T09:48:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.693Z"
+  },
+  "isActive": true,
+  "tags": [
+    "silk",
+    "professional",
+    "elegant",
+    "office"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d415"
+  },
+  "title": "Cozy Knit Sweater - Winter Essential",
+  "description": "Warm and cozy knit sweater in forest green. Perfect for cold weather. Made from soft wool blend material.",
+  "category": "tops",
+  "condition": "good",
+  "size": "L",
+  "brand": "H&M",
+  "originalPrice": 59.99,
+  "sellingPrice": 25,
+  "images": [
+    "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d412"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-09T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.698Z"
+  },
+  "isActive": true,
+  "tags": [
+    "knit",
+    "winter",
+    "cozy",
+    "wool"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d416"
+  },
+  "title": "Classic Blue Jeans - Levi's 501",
+  "description": "Iconic Levi's 501 jeans in classic blue wash. Timeless style that never goes out of fashion. Comfortable fit with slight wear.",
+  "category": "bottoms",
+  "condition": "good",
+  "size": "32",
+  "brand": "Levi's",
+  "originalPrice": 120,
+  "sellingPrice": 65,
+  "images": [
+    "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-05T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.701Z"
+  },
+  "isActive": true,
+  "tags": [
+    "jeans",
+    "classic",
+    "denim",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d417"
+  },
+  "title": "High-Waisted Black Trousers",
+  "description": "Elegant high-waisted trousers in black. Perfect for business or formal occasions. Tailored fit with excellent drape.",
+  "category": "bottoms",
+  "condition": "like-new",
+  "size": "28",
+  "brand": "Mango",
+  "originalPrice": 79.99,
+  "sellingPrice": 40,
+  "images": [
+    "https://images.unsplash.com/photo-1506629905607-d405b7a30db9?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d411"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T09:33:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.702Z"
+  },
+  "isActive": true,
+  "tags": [
+    "trousers",
+    "formal",
+    "business",
+    "elegant"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d418"
+  },
+  "title": "Floral Summer Dress - Bohemian Style",
+  "description": "Beautiful bohemian-style dress with floral print. Perfect for summer events, festivals, or casual outings. Flowing fabric and comfortable fit.",
+  "category": "dresses",
+  "condition": "good",
+  "size": "M",
+  "brand": "Free People",
+  "originalPrice": 150,
+  "sellingPrice": 75,
+  "images": [
+    "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d412"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-10T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.704Z"
+  },
+  "isActive": true,
+  "tags": [
+    "floral",
+    "bohemian",
+    "summer",
+    "festival"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d419"
+  },
+  "title": "Little Black Dress - Cocktail Ready",
+  "description": "Classic little black dress perfect for cocktail parties or dinner dates. Timeless design that flatters all body types.",
+  "category": "dresses",
+  "condition": "like-new",
+  "size": "S",
+  "brand": "ASOS",
+  "originalPrice": 95,
+  "sellingPrice": 50,
+  "images": [
+    "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1566479179817-c0b8b8b5b8b8?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-08T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.706Z"
+  },
+  "isActive": true,
+  "tags": [
+    "black dress",
+    "cocktail",
+    "elegant",
+    "classic"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41a"
+  },
+  "title": "White Leather Sneakers - Minimalist",
+  "description": "Clean white leather sneakers in minimalist design. Comfortable for daily wear and pairs well with any outfit.",
+  "category": "shoes",
+  "condition": "good",
+  "size": "8",
+  "brand": "Adidas",
+  "originalPrice": 100,
+  "sellingPrice": 55,
+  "images": [
+    "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d411"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-06T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.708Z"
+  },
+  "isActive": true,
+  "tags": [
+    "sneakers",
+    "white",
+    "minimalist",
+    "casual"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41b"
+  },
+  "title": "Black Ankle Boots - Professional",
+  "description": "Sleek black ankle boots with low heel. Perfect for professional settings or casual chic looks. Comfortable and versatile.",
+  "category": "shoes",
+  "condition": "good",
+  "size": "7",
+  "brand": "Clarks",
+  "originalPrice": 130,
+  "sellingPrice": 70,
+  "images": [
+    "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d412"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T09:58:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.709Z"
+  },
+  "isActive": true,
+  "tags": [
+    "boots",
+    "professional",
+    "black",
+    "versatile"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41c"
+  },
+  "title": "Vintage Leather Handbag - Brown",
+  "description": "Authentic vintage leather handbag in rich brown color. Shows character with age but still very functional. Perfect for vintage lovers.",
+  "category": "accessories",
+  "condition": "fair",
+  "size": "One Size",
+  "brand": "Vintage",
+  "originalPrice": 200,
+  "sellingPrice": 85,
+  "images": [
+    "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-04T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.711Z"
+  },
+  "isActive": true,
+  "tags": [
+    "handbag",
+    "vintage",
+    "leather",
+    "brown"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41d"
+  },
+  "title": "Designer Silk Scarf - Luxury",
+  "description": "Beautiful designer silk scarf with intricate pattern. Adds elegance to any outfit. Barely used, excellent condition.",
+  "category": "accessories",
+  "condition": "like-new",
+  "size": "One Size",
+  "brand": "Hermès",
+  "originalPrice": 350,
+  "sellingPrice": 180,
+  "images": [
+    "https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d411"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T10:08:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.713Z"
+  },
+  "isActive": true,
+  "tags": [
+    "scarf",
+    "silk",
+    "designer",
+    "luxury"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41e"
+  },
+  "title": "Denim Jacket - Classic Blue",
+  "description": "Timeless denim jacket in classic blue wash. Perfect layering piece for any season. Comfortable fit with vintage appeal.",
+  "category": "outerwear",
+  "condition": "good",
+  "size": "M",
+  "brand": "Gap",
+  "originalPrice": 89.99,
+  "sellingPrice": 45,
+  "images": [
+    "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d412"
+  },
+  "status": "approved",
+  "createdAt": {
+    "$date": "2025-07-11T10:18:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.715Z"
+  },
+  "isActive": true,
+  "tags": [
+    "denim",
+    "jacket",
+    "classic",
+    "layering"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d41f"
+  },
+  "title": "Wool Coat - Winter Essential",
+  "description": "Elegant wool coat in charcoal gray. Perfect for cold weather while maintaining style. Professional and sophisticated.",
+  "category": "outerwear",
+  "condition": "like-new",
+  "size": "L",
+  "brand": "Uniqlo",
+  "originalPrice": 199.99,
+  "sellingPrice": 120,
+  "images": [
+    "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=600&h=600&fit=crop&crop=center",
+    "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=600&fit=crop&crop=center"
+  ],
+  "userId": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-07-12T10:13:55.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:25:39.716Z"
+  },
+  "isActive": true,
+  "tags": [
+    "wool",
+    "coat",
+    "winter",
+    "professional"
+  ]
+}]

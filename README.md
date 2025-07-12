@@ -73,4 +73,15 @@ A sustainable product listing platform designed to promote reuse and responsible
 - Edit profile and manage dashboard
 
 
-##  Testing & Validation
+## Testing & Validation Summary
+
+- Authentication: Validates login, registration, and secure admin access.
+- Item Management: Tests upload, display, and admin review workflows.
+- Wishlist: Ensure add/remove/view functionalities work as expected.
+- API & DB: Validations for authentication, item routes, and data integrity.
+- Security: JWT, bcrypt, XSS, SQL injection prevention, and role-based access.
+- Performance: Fast API (<1s), optimized images, and paginated data.
+- Browser Support: Chrome, Firefox, Safari, Edge (latest 2 versions).
+- Responsive Design: Mobile, tablet, and desktop layouts validated.
+- Accessibility: WCAG 2.1 compliance with keyboard and screen reader support.
+- Deployment: HTTPS, logs, monitoring, and post-deployment tests complete.

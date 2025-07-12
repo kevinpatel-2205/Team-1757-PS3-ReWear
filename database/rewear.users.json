@@ -1,0 +1,158 @@
+[{
+  "_id": {
+    "$oid": "6871e4b4b96ab434986ca7f2"
+  },
+  "email": "admin@rewear.com",
+  "password": "$2a$12$0DsfLvMtpQ/iWz3I.zs15Oi0.0lpSFrrMzeuaeoV6370f6JpY2Hxy",
+  "name": "Admin User",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-07-12T04:29:40.518Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T06:34:57.685Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6871e4b4b96ab434986ca7f3"
+  },
+  "email": "user@example.com",
+  "password": "$2a$12$SwbnUgCs1vc3WcUtaw4O/Op1Md5syJKgGDkr8Xt2a.GWTejXedimC",
+  "name": "Sample User",
+  "role": "user",
+  "phone": "+1234567890",
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zipCode": "12345",
+    "country": "USA"
+  },
+  "createdAt": {
+    "$date": "2025-07-12T04:29:40.791Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T04:29:40.791Z"
+  },
+  "isActive": false
+},
+{
+  "_id": {
+    "$oid": "6871eaa9cf1abd048b8d2051"
+  },
+  "email": "bhavipatel2323@gmail.com",
+  "password": "$2a$12$ZWU/DAxzF5k8P3.XB37Efu2.YgROQJpAvfJ.jbE.0s/E1Z/0pn8u2",
+  "name": "bhavi",
+  "role": "user",
+  "phone": "9579731599",
+  "address": null,
+  "createdAt": {
+    "$date": "2025-07-12T04:55:05.904Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T04:55:05.904Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6871fa71c4bc9aa3987f10c3"
+  },
+  "email": "test@test.com",
+  "password": "$2a$12$/J2dcNJ88J3scIdYnHW9wuTEbrx4JtnQTwxQzvU5t4b6SL5Mi6UB2",
+  "name": "test1",
+  "role": "user",
+  "phone": "123",
+  "address": null,
+  "createdAt": {
+    "$date": "2025-07-12T06:02:25.946Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T06:02:25.946Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6871fc50164980fb0e87b698"
+  },
+  "email": "test1@test.com",
+  "password": "$2a$12$9m2gM61c7lr1zBl/B7r30.FpVZ0Er9nbBtLCKhzHuNHUrwA//Lisy",
+  "name": "test2",
+  "role": "user",
+  "phone": "",
+  "address": null,
+  "createdAt": {
+    "$date": "2025-07-12T06:10:24.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T06:10:24.681Z"
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6872100236e80623d6d82d6f"
+  },
+  "email": "test2@example.com",
+  "password": "$2a$12$MXE8jBhD7Q3xg9nSmphmNO/B8LTndX7f/1Zgm.13HDrSu7TDiklBS",
+  "name": "Test User 2",
+  "role": "user",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-07-12T07:34:26.500Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T07:34:26.500Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d410"
+  },
+  "email": "fashionista@example.com",
+  "password": "$2a$12$MXE8jBhD7Q3xg9nSmphmNO/B8LTndX7f/1Zgm.13HDrSu7TDiklBS",
+  "name": "Emma Fashion",
+  "role": "user",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d411"
+  },
+  "email": "styleguru@example.com",
+  "password": "$2a$12$MXE8jBhD7Q3xg9nSmphmNO/B8LTndX7f/1Zgm.13HDrSu7TDiklBS",
+  "name": "Alex Style",
+  "role": "user",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6872368fc8b9f92ae835d412"
+  },
+  "email": "vintagelover@example.com",
+  "password": "$2a$12$MXE8jBhD7Q3xg9nSmphmNO/B8LTndX7f/1Zgm.13HDrSu7TDiklBS",
+  "name": "Sarah Vintage",
+  "role": "user",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  },
+  "updatedAt": {
+    "$date": "2025-07-12T10:18:55.470Z"
+  }
+}]

@@ -33,57 +33,7 @@ export default function AdminPage() {
   const { user, loading: authLoading } = useAuth()
   const router = useRouter()
 
-  // Check if user is admin
-  useEffect(() => {
-    if (!authLoading && (!user || user.role !== 'admin')) {
-      console.log('Not admin, redirecting. User:', user)
-      router.push('/login')
-    }
-  }, [user, authLoading, router])
-
-  // Don't render anything if not authenticated or not admin
-  if (authLoading) {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
-          <p>Checking authentication...</p>
-        </div>
-      </div>
-    )
-  }
-
-  if (!user || user.role !== 'admin') {
-    return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Access Denied</h1>
-          <p className="text-gray-600 mb-4">You need admin privileges to access this page.</p>
-          <Button onClick={() => router.push('/login')}>
-            Go to Login
-          </Button>
-        </div>
-      </div>
-    )
-  }
-
-  useEffect(() => {
-    fetchAllItems() // Fetch all items first
-  }, [])
-
-  useEffect(() => {
-    filterItemsForTab() // Filter items when tab changes
-  }, [activeTab, allItems])
-
-  // Auto-refresh every 30 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      fetchAllItems()
-    }, 30000) // 30 seconds
-
-    return () => clearInterval(interval)
-  }, [])
-
+  // Define functions before hooks
   const fetchAllItems = async () => {
     try {
       setLoading(true)
@@ -124,25 +74,6 @@ export default function AdminPage() {
     }
   }
 
-  const fetchItemsAlternative = async () => {
-    try {
-      console.log('🔄 Admin: Trying alternative fetch with status=pending...')
-      const response = await fetch('/api/items?status=pending&limit=200', {
-        credentials: 'include'
-      })
-
-      if (response.ok) {
-        const data = await response.json()
-        console.log('📦 Admin: Alternative fetch found:', data.items?.length || 0, 'pending items')
-        if (data.items && data.items.length > 0) {
-          setAllItems(data.items)
-        }
-      }
-    } catch (error) {
-      console.error('❌ Admin: Alternative fetch failed:', error)
-    }
-  }
-
   const filterItemsForTab = () => {
     console.log('🔍 Admin: Filtering items for tab:', activeTab)
     console.log('📦 Admin: Total items available:', allItems.length)
@@ -156,6 +87,60 @@ export default function AdminPage() {
       console.log(`📋 Admin: Showing ${activeTab} items:`, filtered.length)
     }
   }
+
+  // All hooks must be called before any conditional returns
+  useEffect(() => {
+    fetchAllItems() // Fetch all items first
+  }, [])
+
+  useEffect(() => {
+    filterItemsForTab() // Filter items when tab changes
+  }, [activeTab, allItems])
+
+  // Auto-refresh every 30 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      fetchAllItems()
+    }, 30000) // 30 seconds
+
+    return () => clearInterval(interval)
+  }, [])
+
+  // Check if user is admin
+  useEffect(() => {
+    if (!authLoading && (!user || user.role !== 'admin')) {
+      console.log('Not admin, redirecting. User:', user)
+      router.push('/login')
+    }
+  }, [user, authLoading, router])
+
+  // Don't render anything if not authenticated or not admin
+  if (authLoading) {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin mx-auto mb-4"></div>
+          <p>Checking authentication...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (!user || user.role !== 'admin') {
+    return (
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">Access Denied</h1>
+          <p className="text-gray-600 mb-4">You need admin privileges to access this page.</p>
+          <Button onClick={() => router.push('/login')}>
+            Go to Login
+          </Button>
+        </div>
+      </div>
+    )
+  }
+
+
 
   const handleApprove = async (itemId: string) => {
     try {
